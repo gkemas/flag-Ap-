@@ -19,4 +19,10 @@ const getAllCountry = async() =>{
  })
 //  await $('.selectpicker').selectpicker('refresh');
 }
-getAllCountry()
+getAllCountry() =async() =>{
+  input.forEach((item)) => {
+    item.addEventListener('mouseup', (e) =>{
+      e.preventDefault();
+    })
+  }
+}
