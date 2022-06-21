@@ -23,6 +23,7 @@ getAllCountry() =async() =>{
   input.forEach((item)) => {
     item.addEventListener('mouseup', (e) =>{
       e.preventDefault();
+      cname = e.target.innerText;
     })
   }
 }
