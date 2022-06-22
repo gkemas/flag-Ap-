@@ -19,11 +19,19 @@ const getAllCountry = async() =>{
  })
 //  await $('.selectpicker').selectpicker('refresh');
 }
-getAllCountry() =async() =>{
-  input.forEach((item)) => {
-    item.addEventListener('mouseup', (e) =>{
-      e.preventDefault();
-      cname = e.target.innerText;
-    })
-  }
+// getAllCountry() = async() =>{
+//   input.forEach((item)  => {
+//     item.addEventListener('mouseup', (e) =>{
+//       e.preventDefault(); u
+//       cname = e.target.innerText;
+//     }) 
+//   }
+// )}
+
+getAllCountry() = async =>{
+  let countryAll =[];
+  data.forEach(e =>{
+    const {common} =e.country
+    countryAll.push(common);
+  })
 }
