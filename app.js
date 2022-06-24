@@ -24,7 +24,7 @@ const getAllCountry = async() =>{
 //     item.addEventListener('mouseup', (e) =>{
 //       e.preventDefault();   
 //       cname = e.target.innerText;
-//     }) uy
+//     })
 //   }
 // )}
 
